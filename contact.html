@@ -101,37 +101,37 @@
     </section><!--/.top-area-->
 
     <!-- Contact Section Start -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="subscribe-title text-center">
-                <h2>Get in Touch with Us</h2>
-                <p>We would love to hear from you! Please fill out the form below and we will get back to you shortly.</p>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="subscription-input-group">
-                        <form action="your-backend-endpoint" method="POST">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" class="subscription-input-form" placeholder="Enter your name" required>
-
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" class="subscription-input-form" placeholder="Enter your email here" required>
-
-                            <label for="message">Message:</label>
-                            <textarea id="message" class="subscription-input-form" placeholder="Your message here" rows="5" required></textarea>
-                        </form>
-                    </div>
-
-                    <!-- Separate Div for the Button -->
-                    <div class="button-group text-center">
-                        <button type="submit" class="appsLand-btn subscribe-btn" form="your-form-id">
-                            Send Message
-                        </button>
-                    </div>
-                </div>	
-            </div>
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="subscribe-title text-center">
+            <h2>Get in Touch with Us</h2>
+            <p>We would love to hear from you! Please fill out the form below and we will get back to you shortly.</p>
         </div>
-    </section><!--/Contact Section End -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="subscription-input-group">
+                    <form action="your-backend-endpoint" method="POST" id="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" class="subscription-input-form" placeholder="Enter your name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" class="subscription-input-form" placeholder="Enter your email here" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" class="subscription-input-form" placeholder="Your message here" rows="5" required></textarea>
+
+                        <!-- Send Message Button -->
+                        <div class="button-group text-center">
+                            <button type="submit" class="appsLand-btn subscribe-btn">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>	
+        </div>
+    </div>
+</section><!--/Contact Section End -->
 
     <!-- footer start -->
     <footer id="footer" class="footer">
