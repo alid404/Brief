@@ -2,22 +2,19 @@
 <html class="no-js" lang="en">
 
 <head>
-    <!-- meta data -->
+    <!-- Meta Data -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!--font-family-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    
-    <!-- title of site -->
     <title>How It Works - Your Website</title>
 
-    <!-- For favicon png -->
-    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/logo/favicon.png"/>
 
-    <!-- Include styles -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/linearicons.css">
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -28,9 +25,8 @@
     <link rel="stylesheet" href="assets/css/bootsnav.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!-- HTML5 Shim and Respond.js for IE8 support -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -38,32 +34,33 @@
 </head>
 
 <body>
+    <!-- IE Compatibility Warning -->
     <!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
     
-    <!--header-top start -->
+    <!-- Header Top -->
     <header id="header-top" class="header-top">
         <ul>
             <li>
                 <div class="header-top-left">
                     <ul>
                         <li class="select-opt">
-                            <select name="language" id="language">
+                            <select name="language" id="language" aria-label="Select language">
                                 <option value="default">EN</option>
                                 <option value="French">FR</option>
                                 <option value="Arabic">AB</option>
                             </select>
                         </li>
                         <li class="select-opt">
-                            <select name="currency" id="currency">
+                            <select name="currency" id="currency" aria-label="Select currency">
                                 <option value="usd">USD</option>
                                 <option value="euro">Euro</option>
                                 <option value="mad">MAD</option>
                             </select>
                         </li>
                         <li class="select-opt">
-                            <a href="#"><span class="lnr lnr-magnifier"></span></a>
+                            <a href="#" aria-label="Search"><span class="lnr lnr-magnifier"></span></a>
                         </li>
                     </ul>
                 </div>
@@ -72,103 +69,99 @@
                 <div class="header-top-right">
                     <ul>
                         <li class="header-top-contact">
-                            +212 222 777 6565
+                            <span>+212 222 777 6565</span>
                         </li>
                         <li class="header-top-contact">
-                            <a href="#">sign in</a>
+                            <a href="#">Sign In</a>
                         </li>
                         <li class="header-top-contact">
-                            <a href="#">register</a>
+                            <a href="#">Register</a>
                         </li>
                     </ul>
                 </div>
             </li>
         </ul>
     </header><!--/.header-top-->
-    <!--header-top end -->
 
-    <!-- top-area Start -->
+    <!-- Top Area -->
     <section class="top-area">
         <div class="header-area">
-           <!-- Start Navigation -->
-<nav class="navbar navbar-default bootsnav navbar-sticky navbar-scrollspy" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
-    <div class="container">
-        <!-- Start Header Navigation -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand" href="index.html">listo<span>go</span></a>
-        </div><!--/.navbar-header-->
-        <!-- End Header Navigation -->
+            <!-- Navigation -->
+            <nav class="navbar navbar-default bootsnav navbar-sticky navbar-scrollspy" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+                <div class="container">
+                    <!-- Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html">listo<span>go</span></a>
+                    </div><!--/.navbar-header-->
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-            <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                <li><a href="index.html">home</a></li>
-                <li class="active"><a href="how-it-works.html">how it works</a></li>
-                <li><a href="explore.html">explore</a></li>
-                <li><a href="reviews.html">review</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!--/.container-->
-</nav><!--/nav-->
-<!-- End Navigation -->
+                    <!-- Collect the nav links -->
+                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="how-it-works.html">How It Works</a></li>
+                            <li><a href="explore.html">Explore</a></li>
+                            <li><a href="reviews.html">Review</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!--/.container-->
+            </nav><!--/nav-->
         </div><!--/.header-area-->
         <div class="clearfix"></div>
     </section><!-- /.top-area-->
-    <!-- top-area End -->
 
-    <!--works start -->
+    <!-- Works Section -->
     <section id="works" class="works">
         <div class="container">
             <div class="section-header">
-                <h2>how it works</h2>
-                <p>Learn More about how our website works</p>
+                <h2>How It Works</h2>
+                <p>Learn more about how our website works</p>
             </div><!--/.section-header-->
             <div class="works-content">
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="single-how-works">
                             <div class="single-how-works-icon">
-                                <i class="flaticon-lightbulb-idea"></i>
+                                <i class="flaticon-lightbulb-idea" aria-hidden="true"></i>
                             </div>
-                            <h2><a href="#">choose <span> what to</span> do</a></h2>
+                            <h2><a href="#">Choose <span>What To</span> Do</a></h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
                             </p>
-                            <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
-                                read more
+                            <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'" aria-label="Read more about choosing what to do">
+                                Read More
                             </button>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="single-how-works">
                             <div class="single-how-works-icon">
-                                <i class="flaticon-networking"></i>
+                                <i class="flaticon-networking" aria-hidden="true"></i>
                             </div>
-                            <h2><a href="#">find <span> what you want</span></a></h2>
+                            <h2><a href="#">Find <span>What You Want</span></a></h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
                             </p>
-                            <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
-                                read more
+                            <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'" aria-label="Read more about finding what you want">
+                                Read More
                             </button>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="single-how-works">
                             <div class="single-how-works-icon">
-                                <i class="flaticon-location-on-road"></i>
+                                <i class="flaticon-location-on-road" aria-hidden="true"></i>
                             </div>
-                            <h2><a href="#">explore <span> amazing</span> place</a></h2>
+                            <h2><a href="#">Explore <span>Amazing</span> Places</a></h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.
                             </p>
-                            <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
-                                read more
+                            <button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'" aria-label="Read more about exploring amazing places">
+                                Read More
                             </button>
                         </div>
                     </div>
@@ -176,97 +169,84 @@
             </div>
         </div><!--/.container-->
     </section><!--/.works-->
-    <!--works end -->
 
-    <!-- statistics start -->
+    <!-- Statistics Section -->
     <section id="statistics" class="statistics">
         <div class="container">
             <div class="statistics-counter"> 
                 <div class="col-md-3 col-sm-6">
                     <div class="single-ststistics-box">
                         <div class="statistics-content">
-                            <div class="counter">90 </div> <span>K+</span>
+                            <div class="counter" aria-label="Number of listings">90 </div> <span>K+</span>
                         </div><!--/.statistics-content-->
-                        <h3>listings</h3>
+                        <h3>Listings</h3>
                     </div><!--/.single-ststistics-box-->
                 </div><!--/.col-->
                 <div class="col-md-3 col-sm-6">
                     <div class="single-ststistics-box">
                         <div class="statistics-content">
-                            <div class="counter">40</div> <span>k+</span>
+                            <div class="counter" aria-label="Number of listing categories">40</div> <span>K+</span>
                         </div><!--/.statistics-content-->
-                        <h3>listing categories</h3>
+                        <h3>Listing Categories</h3>
                     </div><!--/.single-ststistics-box-->
                 </div><!--/.col-->
                 <div class="col-md-3 col-sm-6">
                     <div class="single-ststistics-box">
                         <div class="statistics-content">
-                            <div class="counter">560</div> <span>+</span>
+                            <div class="counter" aria-label="Total users">560</div> <span>+</span>
                         </div><!--/.statistics-content-->
-                        <h3>total user</h3>
+                        <h3>Total Users</h3>
                     </div><!--/.single-ststistics-box-->
                 </div><!--/.col-->
                 <div class="col-md-3 col-sm-6">
                     <div class="single-ststistics-box">
                         <div class="statistics-content">
-                            <div class="counter">80</div> <span>+</span>
+                            <div class="counter" aria-label="Number of partners">40</div> <span>+</span>
                         </div><!--/.statistics-content-->
-                        <h3>partner</h3>
+                        <h3>Partners</h3>
                     </div><!--/.single-ststistics-box-->
                 </div><!--/.col-->
             </div><!--/.statistics-counter-->
         </div><!--/.container-->
     </section><!--/.statistics-->
-    <!-- statistics end -->
 
-    <!-- Footer Start -->
-    <footer id="footer">
+    <!-- Footer -->
+    <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="footer-widget">
-                        <h2 class="footer-title">about us</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        </p>
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <h3>About Us</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="footer-widget">
-                        <h2 class="footer-title">quick links</h2>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="how-it-works.html">How It Works</a></li>
-                            <li><a href="explore.html">Explore</a></li>
-                            <li><a href="reviews.html">Review</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                    <div class="col-md-4 col-sm-6">
+                        <h3>Contact Us</h3>
+                        <p>123 Street, City, Country</p>
+                        <p>Email: info@example.com</p>
+                        <p>Phone: +212 222 777 6565</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <h3>Follow Us</h3>
+                        <ul class="footer-social">
+                            <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="footer-widget">
-                        <h2 class="footer-title">contact us</h2>
-                        <ul>
-                            <li><a href="#">contact@yourwebsite.com</a></li>
-                            <li><a href="#">+212 222 777 6565</a></li>
-                            <li><a href="#">Your Address Here</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!--/.row-->
+            </div><!--/.footer-content-->
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+            </div><!--/.footer-bottom-->
         </div><!--/.container-->
     </footer><!--/.footer-->
-    <!-- Footer End -->
 
-    <!-- Include Scripts -->
+    <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/bootsnav.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
