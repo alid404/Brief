@@ -110,13 +110,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="subscription-input-group">
-                        <form action="your-backend-endpoint" method="POST" id="contact-form">
-                            <div class="button-group text-center">
-                                <button type="submit" class="appsLand-btn subscribe-btn">
-                                    Send Message
-                                </button>
-                            </div>
-
+                        <form action="your-backend-endpoint" method="POST">
                             <label for="name">Name:</label>
                             <input type="text" id="name" class="subscription-input-form" placeholder="Enter your name" required>
 
@@ -126,6 +120,13 @@
                             <label for="message">Message:</label>
                             <textarea id="message" class="subscription-input-form" placeholder="Your message here" rows="5" required></textarea>
                         </form>
+                    </div>
+
+                    <!-- Separate Div for the Button -->
+                    <div class="button-group text-center">
+                        <button type="submit" class="appsLand-btn subscribe-btn" form="your-form-id">
+                            Send Message
+                        </button>
                     </div>
                 </div>	
             </div>
