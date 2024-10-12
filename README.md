@@ -18,7 +18,11 @@
 ## Getting Started
 -----------------
 
-* Provide instructions on how to get started with your project
+* Follow this method if you want to set up ListoGo on your own server:
+
+* Clone or download the repository.
+* Open the index.html file in your browser to preview the website locally.
+* Modify the content, images, and links to match your needs.
 
 ## Requirements
 -------------
